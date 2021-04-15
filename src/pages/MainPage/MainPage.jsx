@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.scss';
+import { ButtonMain } from '../../components/ButtonMain/ButtonMain.jsx';
 
 export const MainPage = () => {
     return (
@@ -14,7 +15,7 @@ export const MainPage = () => {
                     специалисты работают над Вашим проектом
                 </p>
                 <div className="landing-section__buttons">
-                    <button className="button">СТАТЬ наставником</button>
+                    <ButtonMain>СТАТЬ наставником</ButtonMain>
                     <button className="button landing-section__button_active">
                         РАЗМЕСТИТЬ заказ
                     </button>
