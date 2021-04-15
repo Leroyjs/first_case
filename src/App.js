@@ -1,7 +1,7 @@
 import './App.css';
 import './reset.scss';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import { MainPage } from './pages/MainPage.jsx';
+import { MainPage } from './pages/MainPage/MainPage.jsx';
 
 function App() {
     return (
