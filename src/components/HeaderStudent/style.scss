@@ -1,0 +1,11 @@
+.header-student {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 60px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  background-color: #f5f7fa;
+
+  &__links-ul {
+    display: flex;
+  }
+}
